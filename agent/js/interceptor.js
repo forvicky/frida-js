@@ -1,6 +1,9 @@
+
+ //Interceptor对象对so层导出库函数拦截
 function frida_Interceptor() {
     Java.perform(function () {
  
+       
        var add_method = new NativeFunction(Module.findExportByName('libnative-lib.so', 'Java_com_zdd_fridalearn_MainActivitySo_addNum'), 
        'int',['int','int']);
        

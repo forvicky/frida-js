@@ -65,7 +65,7 @@ function frida_java(){
 
             Interceptor.attach(Module.findExportByName("libnative-lib.so","Java_com_zdd_fridalearn_MainActivitySo_stringFromJNI"),{
                 onEnter:function(args){
-                    console.log(args[0].toInt32());
+                    console.log(args[0].readUtf8String);
                     console.log(args[1].toString());
 
                     //输出上下文因其是一个Objection对象，需要它进行接送、转换才能正常看到值
