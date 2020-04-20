@@ -1,0 +1,11 @@
+{
+
+    	// 控制编辑器是否自动格式化粘贴的内容。格式化程序必须可用，并且能针对文档中的某一范围进行格式化。
+	"editor.formatOnPaste": false,
+
+	// 在保存时格式化文件。格式化程序必须可用，延迟后文件不能保存，并且编辑器不能关闭。
+	"editor.formatOnSave": false,
+
+	// 控制编辑器在键入一行后是否自动格式化该行。
+	"editor.formatOnType": false
+}

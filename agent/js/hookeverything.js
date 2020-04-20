@@ -173,13 +173,13 @@ setTimeout(function() { // avoid java.lang.ClassNotFoundException
 
 	Java.perform(function() {
         //"类名.方法名"
-        trace("net.sqlcipher.database.SQLiteDatabase.openOrCreateDatabase");
+        //trace("net.sqlcipher.database.SQLiteDatabase.openOrCreateDatabase");
 
 		// trace("com.target.utils.CryptoUtils.decrypt");
 		// trace("com.target.utils.CryptoUtils");
 		// trace("CryptoUtils");
 		// trace(/crypto/i);
-		// trace("exports:*!open*");
+		 trace("exports:*!open*");
 
 	});   
 }, 0);
